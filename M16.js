@@ -6,7 +6,7 @@ let qtdItems = 0;
 
 const carrinho = [
   { produto: "Farinha de Trigo 1 kg", preco: 4.25, qtd: 3 },
-  { produto: "Tomate 3 kg", preco: 12.00, qtd: 1 },
+  { produto: "Tomate 1 kg", preco: 12.00, qtd: 3 },
   { produto: "Mussarela 1 kg", preco: 37.82, qtd: 1 },
   {produto: "Fermento Biologico 10 g", preco: 1.68, qtd: 5}
 ];
