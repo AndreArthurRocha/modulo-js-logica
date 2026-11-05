@@ -8,13 +8,13 @@
 
 // Com o tempo, alguns números ficaram ilegíveis e foram anotados como -1. Descubra os números que faltam e mostre o resumo completo.
 
-let entrada = [-1, -1, 7, 2, 5];
+const prompt = require("prompt-sync")();
 
-let J = entrada[0];
-let P = entrada[1];
-let V = entrada[2];
-let E = entrada[3];
-let D = entrada[4];
+let J = Number(prompt("Qual o número de jogos? "));
+let P = Number(prompt("Qual o número de pontos? "));
+let V = Number(prompt("Qual o número de vitórias? "));
+let E = Number(prompt("Qual o número de empates? "));
+let D = Number(prompt("Qual o número de derrotas? "));
 
 if (J === -1 && P === -1) {
     J = V + E + D;
