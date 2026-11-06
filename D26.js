@@ -3,8 +3,8 @@
 // Monte a história do placar: comece em 0 x 0 e, a cada gol, na ordem em que os gols aconteceram, 
 // mostre o minuto e o placar logo depois dele. O placar sempre mostra primeiro os gols do time da casa.
 
-const golsCasa = [12, 40, 88];
-const golsVisitante = [5, 77];
+const golsCasa = [12, 40, 53, 88];
+const golsVisitante = [5, 77, 90];
 
 let minutos = 0;
 let a = 0;
@@ -12,7 +12,7 @@ let b = 0;
 
 console.log("Início: " + a + " X " + b);
 
-while (minutos < 90) {
+while (minutos < 91) {
 
     if (golsCasa.includes(minutos)) {
 
